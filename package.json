@@ -1,0 +1,19 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chromeh": "cypress run --browser chrome --headed",
+    "chromehl": "cypress run --browser chrome --headless",
+    "firefoxh": "cypress run --browser firefox --headed",
+    "firefoxhl": "cypress run --browser firefox --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "save-dev": "^0.0.1-security"
+  }
+}
